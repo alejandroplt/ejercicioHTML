@@ -1,0 +1,11 @@
+
+.logotipo{
+    width: 30px; /*ancho*/
+    padding: 5px 0; /*espacio para que no quede tan pegado*/
+}
+
+.iconos-redes-header{
+    width: 20px;
+    margin: 10px 5px;
+}
+
