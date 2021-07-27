@@ -1,4 +1,8 @@
 
+.altura-a-b{
+    padding: 100px 0;
+}
+
 .logotipo{
     width: 30px; /*ancho*/
     padding: 5px 0; /*espacio para que no quede tan pegado*/
@@ -9,3 +13,19 @@
     margin: 10px 5px;
 }
 
+.banner-video{
+    background-image: url("../imagenes/playa.jpg");
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video .play{
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.iconos-des{
+    width: 200px;
+}
