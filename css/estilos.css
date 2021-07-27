@@ -4,7 +4,7 @@
 }
 
 .logotipo{
-    width: 30px; /*ancho*/
+    width: 100px; /*ancho*/
     padding: 5px 0; /*espacio para que no quede tan pegado*/
 }
 
@@ -28,4 +28,20 @@
 
 .iconos-des{
     width: 200px;
+}
+
+footer{
+    background-color:black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
 }
