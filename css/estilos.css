@@ -1,4 +1,12 @@
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
 .altura-a-b{
     padding: 100px 0;
 }
@@ -20,6 +28,19 @@
     text-align: center;
 }
 
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+
+}
+
 .banner-video .play{
     width: 80px;
     height: 80px;
@@ -28,6 +49,31 @@
 
 .iconos-des{
     width: 200px;
+}
+
+/*SOMOS*/
+.cabecera-somos{
+    padding: 150px 0 100px 0;
+    background-image: url("../imagenes/playa.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+/*.cabecera-somos h1, .cabecera-somos h2{
+    color: white;
+}*/
+
+.texto-blanco{
+    color: white;
+}
+
+.banner-somos{
+    background-image: url("../imagenes/playa.jpg");
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+
 }
 
 footer{
@@ -44,4 +90,14 @@ footer .logotipo-footer{
 footer p{
     color: white;
     font-size: 14px;
+}
+
+.btn-light{
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #f8f9fa;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
